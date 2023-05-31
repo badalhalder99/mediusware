@@ -11,7 +11,7 @@ const Problem1 = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-    setShow(e.target.value);
+    setShow(e.target.value.toLowerCase());
   };
 
   const handleSubmit = (e) => {
